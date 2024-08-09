@@ -1,0 +1,16 @@
+import "./Hero.css";
+import logo from "../../assets/images/logo_red_rojo.png";
+
+const Hero = () => {
+  return (
+    <div className="hero-container">
+      <div className="hero-background"></div>
+      <div className="hero-content">
+        <img src={logo} alt="Logo" className="logo" />
+        <h1>Red Boliviana de Ciencias Planetarias y Exploración Espacial</h1>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;

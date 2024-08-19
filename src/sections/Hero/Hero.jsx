@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo_red_rojo.png";
 
 const Hero = () => {
   return (
-    <section className="hero-container">
+    <section className="hero-section">
       <div className="hero-background"></div>
       <div className="hero-content">
         <img src={logo} alt="Logo" className="logo" />

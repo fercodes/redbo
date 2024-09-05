@@ -2,7 +2,7 @@ import "./button-join-us.css";
 
 const ButtonJoinUs = () => {
   const handleClick = () => {
-    window.open("https://yoursite.com/join", "_blank");
+    window.open("https://forms.gle/HpvAknKRC1xJev2P7", "_blank");
   };
 
   return (

@@ -7,7 +7,9 @@ import youtubeIcon from "../../assets/icons/youtube.svg";
 const Contact = () => {
   return (
     <section className="contact-section">
-      <h2 className="contact-title">Nuestras redes sociales</h2>
+      <h2 className="contact-title">
+        Síguenos en nuestras redes sociales para estar en contacto
+      </h2>
       <div className="contact-icons">
         <a
           href="https://www.facebook.com/RedBolivianadeCsEspaciales"

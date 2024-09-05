@@ -50,6 +50,7 @@
   margin: 0;
   padding: 0;
   animation: fadeIn 2s ease-in-out;
+  margin-bottom: 64px;
 }
 
 @keyframes fadeIn {

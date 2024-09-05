@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero/Hero";
 import AboutUs from "./sections/AboutUs/AboutUs";
 import Team from "./sections/Team/Team";
+import Contact from "./sections/Contact/Contact";
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <Hero />
       <AboutUs />
       <Team />
-      <p>Contact</p>
+      <Contact />
     </div>
   );
 };

@@ -6,7 +6,7 @@ import youtubeIcon from "../../assets/icons/youtube.svg";
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <h2 className="contact-title">
         Síguenos en nuestras redes sociales para estar en contacto
       </h2>

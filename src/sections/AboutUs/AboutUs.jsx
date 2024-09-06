@@ -12,7 +12,7 @@ const AboutUs = () => {
           by ESA/Hubble (M. Kornmesser), warped and recoloured by NN
         </p>
       </div>
-      <section className="about-us-section">
+      <section id="about-us" className="about-us-section">
         <div className="about-us-box">
           <h2>¿Quiénes somos?</h2>
           <p>

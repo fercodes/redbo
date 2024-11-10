@@ -2,6 +2,7 @@ import nicole from '../assets/images/nicole.jpg';
 import ruben from '../assets/images/ruben.jpg';
 import adan from '../assets/images/adan.jpg';
 import gabriel from '../assets/images/gabriel.jpg';
+import cinthya from '../assets/images/cinthya.jpg';
 import alejandra from '../assets/images/alejandra.jpg';
 import franco from '../assets/images/franco.jpg';
 import fernando from '../assets/images/fernando.jpg';
@@ -57,9 +58,20 @@ const teamData = [
     ],
   },
   {
-    name: 'Gabriel Jiménez',
+    name: 'Gabriel Jiménez Amorós',
     position: 'DIRECTOR EXPLORACIÓN ESPACIAL',
     photo: gabriel,
+    socialNetworks: [
+      {
+        platform: 'linkedin',
+        link: 'https://www.linkedin.com/in/gabriel-jim%C3%A9nez-amor%C3%B3s-4b21b61b0/',
+      },
+    ],
+  },
+  {
+    name: 'Doris Cinthya Conde',
+    position: 'ABOGADA, ENCARGADA LEGAL (DERECHO AERONÁUTICO Y ESPACIAL)',
+    photo: cinthya,
     socialNetworks: [],
   },
   {

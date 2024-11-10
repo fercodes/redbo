@@ -15,14 +15,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../../assets/images/bubble_nebula.jpg");
+  background-image: url('../../assets/images/bubble_nebula.jpg');
   background-size: cover;
   background-position: center;
   z-index: -1;
 }
 
 .hero-background::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -44,7 +44,7 @@
 }
 
 .hero-content h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3rem;
   font-weight: bold;
   margin: 0;

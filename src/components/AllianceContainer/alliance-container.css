@@ -1,0 +1,34 @@
+.alliance-container {
+  width: 200px;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.alliance-container:hover {
+  transform: scale(1.05);
+}
+
+.alliance-photo {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+}
+
+.alliance-container p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.alliance-container p:last-child {
+  font-size: 0.875rem;
+  color: #777;
+}

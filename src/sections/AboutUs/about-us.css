@@ -4,7 +4,7 @@
   background-color: #000000;
   color: #ffffff;
   min-height: 100vh;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .credits {
@@ -44,7 +44,7 @@
 }
 
 .about-us-section::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -75,7 +75,7 @@
 
 .about-us-box {
   background-color: rgba(10, 10, 30, 0.8);
-  border-radius: 8px;
+  border-radius: 40px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   padding: 3rem;
   width: 100%;
@@ -103,15 +103,15 @@
 }
 
 .about-us-box p {
-  font-size: 1.1rem;
-  color: #e6e6e6;
+  font-size: 1rem;
+  color: #ffffff;
   line-height: 1.8;
   margin-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
   .about-us-section {
-    padding: 3rem 1.5rem;
+    padding: 3rem 3rem;
   }
 
   .about-us-box {
@@ -129,7 +129,7 @@
 
 @media (max-width: 480px) {
   .about-us-section {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
   }
 
   .about-us-box {

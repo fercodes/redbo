@@ -1,11 +1,12 @@
-import PropTypes from "prop-types";
-import "./team-card.css";
-import linkedinIcon from "../../assets/icons/linkedin.svg";
-import xIcon from "../../assets/icons/x.svg";
-import instagramIcon from "../../assets/icons/instagram.svg";
-import researchgateIcon from "../../assets/icons/researchgate.svg";
-import beaconsIcon from "../../assets/icons/beacons.svg";
-import githubIcon from "../../assets/icons/github.svg";
+import PropTypes from 'prop-types';
+import './team-card.css';
+import linkedinIcon from '../../assets/icons/linkedin.svg';
+import xIcon from '../../assets/icons/x.svg';
+import instagramIcon from '../../assets/icons/instagram.svg';
+import researchgateIcon from '../../assets/icons/researchgate.svg';
+import beaconsIcon from '../../assets/icons/beacons.svg';
+import githubIcon from '../../assets/icons/github.svg';
+import behance from '../../assets/icons/behance.svg';
 
 const icons = {
   linkedin: linkedinIcon,
@@ -14,6 +15,7 @@ const icons = {
   researchgate: researchgateIcon,
   beacons: beaconsIcon,
   github: githubIcon,
+  behance: behance,
 };
 
 const TeamCard = ({ name, position, photo, socialNetworks }) => {

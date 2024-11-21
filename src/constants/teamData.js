@@ -1,9 +1,10 @@
 import nicole from '../assets/images/nicole.jpg';
+import alejandra from '../assets/images/alejandra.jpg';
 import ruben from '../assets/images/ruben.jpg';
 import adan from '../assets/images/adan.jpg';
 import gabriel from '../assets/images/gabriel.jpg';
 import cinthya from '../assets/images/cinthya.jpg';
-import alejandra from '../assets/images/alejandra.jpg';
+import sama from '../assets/images/sama.jpg';
 import franco from '../assets/images/franco.jpg';
 import fernando from '../assets/images/fernando.jpg';
 
@@ -24,6 +25,25 @@ const teamData = [
       {
         platform: 'beacons',
         link: 'https://beacons.ai/nicolejimeno',
+      },
+    ],
+  },
+  {
+    name: 'Arian Alejandra Kuguimiya Ramos',
+    position: 'CO-COORDINADORA',
+    photo: alejandra,
+    socialNetworks: [
+      {
+        platform: 'linkedin',
+        link: 'https://www.linkedin.com/in/alejandra-kuguimiya-8ab04a294/',
+      },
+      {
+        platform: 'instagram',
+        link: 'https://www.instagram.com/arian_akr/',
+      },
+      {
+        platform: 'researchgate',
+        link: 'https://www.researchgate.net/profile/Alejandra-Kuguimiya',
       },
     ],
   },
@@ -75,21 +95,17 @@ const teamData = [
     socialNetworks: [],
   },
   {
-    name: 'Arian Alejandra Kuguimiya Ramos',
+    name: 'Sama Micaela Yañez Aguado',
     position: 'ENCARGADA DISEÑO Y MARKETING',
-    photo: alejandra,
+    photo: sama,
     socialNetworks: [
       {
-        platform: 'linkedin',
-        link: 'https://www.linkedin.com/in/alejandra-kuguimiya-8ab04a294/',
-      },
-      {
         platform: 'instagram',
-        link: 'https://www.instagram.com/arian_akr/',
+        link: 'https://www.instagram.com/cosmos_ismagic/',
       },
       {
-        platform: 'researchgate',
-        link: 'https://www.researchgate.net/profile/Alejandra-Kuguimiya',
+        platform: 'behance',
+        link: 'https://www.behance.net/samayaez',
       },
     ],
   },

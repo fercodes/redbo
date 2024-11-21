@@ -12,6 +12,7 @@ import Astro_CBA from '../assets/images/alliances/national/Astro_CBA.jpg';
 import AIGOKEROS from '../assets/images/alliances/national/AIGOKEROS.jpg';
 import ABASC from '../assets/images/alliances/national/ABASC.jpg';
 import Alpha_y_Omega from '../assets/images/alliances/national/Alpha_y_Omega.jpg';
+import LAC from '../assets/images/alliances/national/LAC.jpg';
 
 const alliancesData = {
   international: [
@@ -83,6 +84,11 @@ const alliancesData = {
     {
       photo: Alpha_y_Omega,
       name: 'Astronomía Alpha y Omega',
+      type: 'national',
+    },
+    {
+      photo: LAC,
+      name: 'Liga de Astronomía Cochabamba (LAC)',
       type: 'national',
     },
   ],

@@ -14,7 +14,7 @@ const AllianceContainer = ({ photo, name, country }) => {
 AllianceContainer.propTypes = {
   photo: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  country: PropTypes.string.isRequired,
+  country: PropTypes.string,
 };
 
 export default AllianceContainer;

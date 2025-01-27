@@ -15,6 +15,7 @@ const Alliances = () => {
               photo={organization.photo}
               name={organization.name}
               country={organization.country}
+              link={organization.link}
             />
           ))}
         </div>
@@ -27,6 +28,7 @@ const Alliances = () => {
               key={index}
               photo={organization.photo}
               name={organization.name}
+              link={organization.link}
             />
           ))}
         </div>

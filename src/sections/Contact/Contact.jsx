@@ -34,6 +34,9 @@ const Contact = () => {
           <img src={youtubeIcon} alt="YouTube" className="contact-icon" />
         </a>
       </div>
+      <a href="mailto:redbolivianacsespaciales@gmail.com" className="email">
+        redbolivianacsespaciales@gmail.com
+      </a>
       <ButtonJoinUs />
     </section>
   );

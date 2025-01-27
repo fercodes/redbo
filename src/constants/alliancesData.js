@@ -21,18 +21,21 @@ const alliancesData = {
       name: 'Fundación Cydonia',
       country: 'Colombia 🇨🇴',
       type: 'international',
+      link: 'https://www.instagram.com/fundcydonia/',
     },
     {
       photo: Space_School,
       name: 'Space School',
       country: 'Perú 🇵🇪',
       type: 'international',
+      link: 'https://www.instagram.com/spaceschool.pe/',
     },
     {
       photo: CLIE,
       name: 'Cluster Latinoamericano de Industria Espacial',
       country: '🇩🇴🇧🇴🇲🇽🇬🇹🇵🇪🇸🇻🇵🇾🇺🇾🇨🇱🇧🇷🇨🇷🇦🇷🇨🇴🇪🇨',
       type: 'international',
+      link: 'https://www.instagram.com/clie.latam/',
     },
   ],
   national: [

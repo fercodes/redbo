@@ -43,46 +43,55 @@ const alliancesData = {
       photo: Science_CBA,
       name: 'CBA Science',
       type: 'national',
+      link: 'https://www.instagram.com/cba_science.tec/',
     },
     {
       photo: Hughes_Space_School,
       name: 'Hughes Space School',
       type: 'national',
+      link: 'https://www.instagram.com/hughesspaceschool/',
     },
     {
       photo: Club_de_Astronomia,
       name: 'Club de Astronomía',
       type: 'national',
+      link: 'https://www.instagram.com/club.astronomia/',
     },
     {
       photo: CNIEB,
       name: 'Cluster Nacional de Industria Espacial - Bolivia',
       type: 'national',
+      link: 'https://www.instagram.com/cnieb.clie/',
     },
     {
       photo: KUIPER,
       name: 'Club de Geología Planetaria Kuiper',
       type: 'national',
+      link: 'https://www.facebook.com/clubgeokuiper',
     },
     {
       photo: CUBESAT,
       name: 'CubeSat Bolivia',
       type: 'national',
+      link: 'https://www.instagram.com/cubesat.bo/',
     },
     {
       photo: Astro_CBA,
       name: 'Astro CBA',
       type: 'national',
+      link: 'https://www.instagram.com/astrocba.sc/',
     },
     {
       photo: AIGOKEROS,
       name: 'Club de Astronomía Aigokeros',
       type: 'national',
+      link: 'https://www.instagram.com/aigokers/',
     },
     {
       photo: ABASC,
       name: 'All Bolivian Asteroid Search Campaign (ABASC)',
       type: 'national',
+      link: 'https://www.facebook.com/BolivianAsteroid',
     },
     {
       photo: Alpha_y_Omega,
@@ -93,6 +102,7 @@ const alliancesData = {
       photo: LAC,
       name: 'Liga de Astronomía Cochabamba (LAC)',
       type: 'national',
+      link: 'https://www.facebook.com/profile.php?id=61550635232185',
     },
   ],
 };

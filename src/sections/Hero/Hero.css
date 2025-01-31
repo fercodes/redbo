@@ -91,3 +91,9 @@
     max-width: 150px;
   }
 }
+
+@media (max-height: 768px) {
+  .hero-content {
+    transform: translateY(6%);
+  }
+}

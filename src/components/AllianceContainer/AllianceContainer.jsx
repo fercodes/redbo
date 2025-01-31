@@ -17,7 +17,7 @@ AllianceContainer.propTypes = {
   photo: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   country: PropTypes.string,
-  link: PropTypes.string.isRequired,
+  link: PropTypes.string,
 };
 
 export default AllianceContainer;

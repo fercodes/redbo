@@ -1,9 +1,8 @@
 .alliance-container {
   width: 200px;
   padding: 1rem;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 30px;
+  background: linear-gradient(135deg, #004690, #091c43, #4f0d0b);
+  border-radius: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.2s;
@@ -25,11 +24,11 @@
 
 .alliance-container p {
   font-size: 1rem;
-  color: #333;
+  color: #ffffff;
   margin: 0.5rem 0;
 }
 
 .alliance-container p:last-child {
   font-size: 0.875rem;
-  color: #777;
+  color: #ffffff;
 }

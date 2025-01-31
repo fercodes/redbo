@@ -1,14 +1,17 @@
 .join-us-button {
   padding: 0.75rem 2rem;
-  background-color: #007bff;
+  background: linear-gradient(135deg, #007bff, #3a6f91, #007bff);
   color: white;
   border: none;
-  border-radius: 50px; /* Rounded corners */
+  border-radius: 50px;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: auto;
+  display: inline-block;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .join-us-button:hover {
@@ -24,4 +27,11 @@
 .join-us-button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+@media (min-width: 1025px) {
+  .join-us-button {
+    padding: 1rem 3rem; /* Increase padding */
+    font-size: 1.2rem; /* Increase font size */
+  }
 }

@@ -1,5 +1,5 @@
 .team-card {
-  background-color: #22426e;
+  background: linear-gradient(135deg, #1485ff, #0b3048, #031a32);
   border-radius: 80px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
@@ -61,7 +61,7 @@
   object-fit: contain;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .team-card {
     padding: 2rem;
   }
@@ -77,5 +77,10 @@
 
   .team-position {
     font-size: 1.125rem;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
   }
 }

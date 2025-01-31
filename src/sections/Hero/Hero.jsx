@@ -1,6 +1,6 @@
-import "./Hero.css";
-import ButtonJoinUs from "../../components/ButtonJoinUs/ButtonJoinUs";
-import logo from "../../assets/images/logo_red_rojo.png";
+import './Hero.css';
+import ButtonJoinUs from '../../components/ButtonJoinUs/ButtonJoinUs';
+import logo from '../../assets/images/logo_red_rojo.png';
 
 const Hero = () => {
   return (

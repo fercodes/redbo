@@ -41,10 +41,6 @@ const teamData = [
         platform: 'instagram',
         link: 'https://www.instagram.com/arian_akr/',
       },
-      {
-        platform: 'researchgate',
-        link: 'https://www.researchgate.net/profile/Alejandra-Kuguimiya',
-      },
     ],
   },
   {
@@ -121,10 +117,6 @@ const teamData = [
       {
         platform: 'instagram',
         link: 'https://www.instagram.com/francomartinezbolivar/',
-      },
-      {
-        platform: 'researchgate',
-        link: 'https://www.researchgate.net/profile/Franco-Martinez-Bolivar',
       },
     ],
   },

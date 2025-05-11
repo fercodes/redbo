@@ -17,11 +17,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar.visible {
+.visible {
   transform: translateY(0);
 }
 
-.navbar.hidden {
+.hidden {
   transform: translateY(-100%);
 }
 
@@ -34,14 +34,14 @@
   padding: 0;
 }
 
-.menu-item a {
+.menuItem a {
   color: #fff;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.3s;
 }
 
-.menu-item a:hover {
+.menuItem a:hover {
   color: #ccc;
 }
 
@@ -54,7 +54,7 @@
   padding-right: 1rem;
 }
 
-.hamburger-line {
+.hamburgerLine {
   width: 25px;
   height: 3px;
   background-color: #fff;
@@ -82,11 +82,11 @@
     padding: 1rem;
   }
 
-  .mobile-menu-open {
+  .mobileMenuOpen {
     display: flex;
   }
 
-  .menu-item {
+  .menuItem {
     margin: 0.5rem 0;
   }
 }

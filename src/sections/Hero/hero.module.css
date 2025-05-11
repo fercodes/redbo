@@ -1,4 +1,4 @@
-.hero-section {
+.heroSection {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.hero-background {
+.heroBackground {
   position: absolute;
   top: 0;
   left: 0;
@@ -21,7 +21,7 @@
   z-index: -1;
 }
 
-.hero-background::after {
+.heroBackground::after {
   content: '';
   position: absolute;
   top: 0;
@@ -32,7 +32,7 @@
   z-index: 0;
 }
 
-.hero-content {
+.heroContent {
   text-align: center;
   color: #ffffff;
   z-index: 1;
@@ -43,7 +43,7 @@
   margin-bottom: 64px;
 }
 
-.hero-content h1 {
+.heroTitle {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3rem;
   font-weight: bold;
@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 1024px) {
-  .hero-content h1 {
+  .heroTitle {
     font-size: 2.5rem;
   }
 
@@ -73,7 +73,7 @@
 }
 
 @media (max-width: 768px) {
-  .hero-content h1 {
+  .heroTitle {
     font-size: 2.4rem;
   }
 
@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 480px) {
-  .hero-content h1 {
+  .heroTitle {
     font-size: 2rem;
   }
 
@@ -93,7 +93,7 @@
 }
 
 @media (max-height: 768px) {
-  .hero-content {
+  .heroContent {
     transform: translateY(6%);
   }
 }

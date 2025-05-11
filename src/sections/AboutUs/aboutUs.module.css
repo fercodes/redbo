@@ -1,4 +1,4 @@
-.about-us-container {
+.aboutUsContainer {
   display: flex;
   flex-direction: column;
   background-color: #000000;
@@ -16,22 +16,22 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.credits p {
+.creditsParagraph {
   margin: 0;
   font-size: 0.8rem;
 }
 
-.credits a {
+.creditsAnchor {
   color: #4da6ff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.credits a:hover {
+.creditsAnchor:hover {
   color: #80bfff;
 }
 
-.about-us-section {
+.aboutUsSection {
   padding: 4rem 2rem;
   background: linear-gradient(to bottom, #000000, #0a0a2e);
   display: flex;
@@ -43,7 +43,7 @@
   overflow: hidden;
 }
 
-.about-us-section::before {
+.aboutUsSection::before {
   content: '';
   position: absolute;
   top: 0;
@@ -73,7 +73,7 @@
   }
 }
 
-.about-us-box {
+.aboutUsBox {
   background: linear-gradient(220deg, #174271, #0b2739, #041a32);
   border-radius: 50px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -86,12 +86,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-us-box:hover {
+.aboutUsBox:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
 }
 
-.about-us-box h2 {
+.aboutUsBoxHeader {
   margin-bottom: 1.5rem;
   color: #ffffff;
   font-size: 2.5rem;
@@ -102,7 +102,7 @@
   padding-bottom: 0.5rem;
 }
 
-.about-us-box p {
+.aboutUsBoxParagraph {
   font-size: 1.2rem;
   color: #ffffff;
   line-height: 1.8;
@@ -111,7 +111,7 @@
 }
 
 @media (max-width: 1024px) {
-  .about-us-section {
+  .aboutUsSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,37 +119,37 @@
 }
 
 @media (max-width: 768px) {
-  .about-us-section {
+  .aboutUsSection {
     padding: 3rem 3rem;
   }
 
-  .about-us-box {
+  .aboutUsBox {
     padding: 2.5rem;
   }
 
-  .about-us-box h2 {
+  .aboutUsBoxHeader {
     font-size: 2.2rem;
   }
 
-  .about-us-box p {
+  .aboutUsBoxParagraph {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .about-us-section {
+  .aboutUsSection {
     padding: 2rem 2rem;
   }
 
-  .about-us-box {
+  .aboutUsBox {
     padding: 2rem;
   }
 
-  .about-us-box h2 {
+  .aboutUsBoxHeader {
     font-size: 2rem;
   }
 
-  .about-us-box p {
+  .aboutUsBoxParagraph {
     font-size: 0.95rem;
   }
 }

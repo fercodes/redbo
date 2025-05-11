@@ -1,12 +1,12 @@
-import './team.css';
+import styles from './team.module.css';
 import TeamCard from '../../components/TeamCard/TeamCard';
 import teamData from '../../constants/teamData';
 
 const Team = () => {
   return (
-    <section id="team" className="team-section">
-      <h2 className="team-title">Comité directivo</h2>
-      <div className="team-cards-container">
+    <section id="team" className={styles.teamSection}>
+      <h2 className={styles.teamTitle}>Comité directivo</h2>
+      <div className={styles.teamCardsContainer}>
         {teamData.map((member, index) => (
           <TeamCard
             key={index}

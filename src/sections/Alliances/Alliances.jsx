@@ -1,14 +1,16 @@
-import './alliances.css';
+import styles from './alliances.module.css';
 import AllianceContainer from '../../components/AllianceContainer/AllianceContainer';
 import alliancesData from '../../constants/alliancesData';
 
 const Alliances = () => {
   return (
-    <section id="alliances" className="alliances-section">
-      <h2>Nuestras alianzas</h2>
-      <div className="alliances-category">
-        <h2>Alianzas internacionales</h2>
-        <div className="alliances-list">
+    <section id="alliances" className={styles.alliancesSection}>
+      <h2 className={styles.alliancesSectionHeader}>Nuestras alianzas</h2>
+      <div className={styles.alliancesCategory}>
+        <h2 className={styles.alliancesCategoryHeader}>
+          Alianzas internacionales
+        </h2>
+        <div className={styles.alliancesList}>
           {alliancesData.international.map((organization, index) => (
             <AllianceContainer
               key={index}
@@ -20,9 +22,9 @@ const Alliances = () => {
           ))}
         </div>
       </div>
-      <div className="alliances-category">
-        <h2>Alianzas nacionales</h2>
-        <div className="alliances-list">
+      <div className={styles.alliancesCategory}>
+        <h2 className={styles.alliancesCategoryHeader}>Alianzas nacionales</h2>
+        <div className={styles.alliancesList}>
           {alliancesData.national.map((organization, index) => (
             <AllianceContainer
               key={index}

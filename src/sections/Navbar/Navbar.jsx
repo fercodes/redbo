@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import "./navbar.css";
+import { useState, useEffect } from 'react';
+import styles from './navbar.module.css';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,12 +23,12 @@ export default function Navbar() {
     };
 
     handleResize();
-    window.addEventListener("resize", handleResize);
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, [lastScrollY]);
 
@@ -43,33 +43,37 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`navbar ${isVisible ? "visible" : "hidden"}`}>
-      <div className="hamburger" onClick={toggleMenu}>
-        <span className="hamburger-line"></span>
-        <span className="hamburger-line"></span>
-        <span className="hamburger-line"></span>
+    <nav
+      className={`${styles.navbar} ${
+        isVisible ? styles.visible : styles.hidden
+      }`}
+    >
+      <div className={styles.hamburger} onClick={toggleMenu}>
+        <span className={styles.hamburgerLine}></span>
+        <span className={styles.hamburgerLine}></span>
+        <span className={styles.hamburgerLine}></span>
       </div>
       <ul
-        className={`menu ${isMobile ? "mobile-menu" : ""} ${
-          isMobile && isOpen ? "mobile-menu-open" : ""
+        className={`${styles.menu} ${isMobile ? styles.mobileMenu : ''} ${
+          isMobile && isOpen ? styles.mobileMenuOpen : ''
         }`}
       >
-        <li className="menu-item">
+        <li className={styles.menuItem}>
           <a href="#hero" onClick={handleMenuItemClick}>
             Inicio
           </a>
         </li>
-        <li className="menu-item">
+        <li className={styles.menuItem}>
           <a href="#about-us" onClick={handleMenuItemClick}>
             Sobre nosotros
           </a>
         </li>
-        <li className="menu-item">
+        <li className={styles.menuItem}>
           <a href="#team" onClick={handleMenuItemClick}>
             Equipo
           </a>
         </li>
-        <li className="menu-item">
+        <li className={styles.menuItem}>
           <a href="#contact" onClick={handleMenuItemClick}>
             Contacto
           </a>

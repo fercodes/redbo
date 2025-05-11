@@ -1,21 +1,21 @@
-import "./about-us.css";
+import styles from './aboutUs.module.css';
 
 const AboutUs = () => {
   return (
-    <div className="about-us-container">
-      <div className="credits">
+    <div className={styles.aboutUsContainer}>
+      <div className={styles.credits}>
         <p>Bubble Nebula, NGC 7635</p>
         <p>
           <a href="https://esahubble.org/images/heic1608a/" target="_blank">
             Original image
-          </a>{" "}
+          </a>{' '}
           by ESA/Hubble (M. Kornmesser), warped and recoloured by NN
         </p>
       </div>
-      <section id="about-us" className="about-us-section">
-        <div className="about-us-box">
-          <h2>¿Quiénes somos?</h2>
-          <p>
+      <section id="about-us" className={styles.aboutUsSection}>
+        <div className={styles.aboutUsBox}>
+          <h2 className={styles.aboutUsBoxHeader}>¿Quiénes somos?</h2>
+          <p className={styles.aboutUsBoxParagraph}>
             La Red Boliviana de Ciencias Planetarias y Exploración Espacial es
             una comunidad colaborativa de personas motivadas en trabajar en el
             sector espacial. La Red está formando un grupo de jóvenes
@@ -24,9 +24,9 @@ const AboutUs = () => {
             Bolivia y éste se visibilice a nivel internacional.
           </p>
         </div>
-        <div className="about-us-box">
-          <h2>Misión</h2>
-          <p>
+        <div className={styles.aboutUsBox}>
+          <h2 className={styles.aboutUsBoxHeader}>Misión</h2>
+          <p className={styles.aboutUsBoxParagraph}>
             Fomentar y promover la difusión, el estudio y la investigación de
             las Ciencias Planetarias y la Exploración Espacial en Bolivia,
             facilitando la interacción entre estudiantes y profesionales de las
@@ -35,9 +35,9 @@ const AboutUs = () => {
             la comunidad científica boliviana a nivel nacional e internacional.
           </p>
         </div>
-        <div className="about-us-box">
-          <h2>Visión</h2>
-          <p>
+        <div className={styles.aboutUsBox}>
+          <h2 className={styles.aboutUsBoxHeader}>Visión</h2>
+          <p className={styles.aboutUsBoxParagraph}>
             Nuestra visión es generar un núcleo que facilite la interacción,
             desarrollo de habilidades y proyectos para estudiantes y
             profesionales que se quieran dedicar a las Ciencias Planetarias y

@@ -1,16 +1,11 @@
-.contact-section {
+.alliancesSection {
   padding: 2rem;
   background: linear-gradient(to bottom, #000000, #0a0a2e);
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
 
-.contact-section::before {
+.alliancesSection::before {
   content: '';
   position: absolute;
   top: 0;
@@ -29,36 +24,31 @@
     radial-gradient(2.5px 2.5px at 110px 80px, #fff, rgba(255, 255, 255, 0));
   background-size: 200px 200px;
   animation: space-move 240s linear infinite;
+  z-index: 0;
 }
 
-.contact-title {
+.alliancesSectionHeader {
   font-size: 2rem;
+  margin-bottom: 1rem;
   color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.alliancesCategory {
+  margin-top: 2rem;
   position: relative;
   z-index: 1;
 }
 
-.contact-icons {
+.alliancesCategoryHeader {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.alliancesList {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-  position: relative;
-  z-index: 1;
-}
-
-.contact-icon {
-  width: 40px;
-  height: 40px;
-}
-
-.email {
-  font-size: 1.5rem;
-  color: blue;
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .email {
-    font-size: 1rem;
-  }
 }

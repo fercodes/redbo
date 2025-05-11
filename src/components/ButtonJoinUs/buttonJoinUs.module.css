@@ -1,4 +1,4 @@
-.join-us-button {
+.joinUsButton {
   padding: 0.75rem 2rem;
   background: linear-gradient(135deg, #007bff, #3a6f91, #007bff);
   color: white;
@@ -14,23 +14,23 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.join-us-button:hover {
+.joinUsButton:hover {
   background-color: #0056b3;
   transform: scale(1.05);
 }
 
-.join-us-button:active {
+.joinUsButton:active {
   background-color: #003d80;
   transform: scale(0.98);
 }
 
-.join-us-button:focus {
+.joinUsButton:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
 }
 
 @media (min-width: 1025px) {
-  .join-us-button {
+  .joinUsButton {
     padding: 1rem 3rem; /* Increase padding */
     font-size: 1.2rem; /* Increase font size */
   }

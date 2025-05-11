@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-import './alliance-container.css';
+import styles from './allianceContainer.module.css';
 
 const AllianceContainer = ({ photo, name, country, link }) => {
   return (
-    <div className="alliance-container">
+    <div className={styles.allianceContainer}>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img src={photo} alt={name} className="alliance-photo" />
+        <img src={photo} alt={name} className={styles.alliancePhoto} />
       </a>
-      <p>{name}</p>
-      <p>{country}</p>
+      <p className={styles.allianceContainerParagraph}>{name}</p>
+      <p className={styles.allianceContainerParagraph}>{country}</p>
     </div>
   );
 };

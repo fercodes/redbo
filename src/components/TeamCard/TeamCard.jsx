@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './team-card.css';
+import styles from './teamCard.module.css';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
 import xIcon from '../../assets/icons/x.svg';
 import instagramIcon from '../../assets/icons/instagram.svg';
@@ -20,11 +20,11 @@ const icons = {
 
 const TeamCard = ({ name, position, photo, socialNetworks }) => {
   return (
-    <div className="team-card">
-      <img src={photo} alt={name} className="team-photo" />
-      <h3 className="team-name">{name}</h3>
-      <p className="team-position">{position}</p>
-      <div className="team-socials">
+    <div className={styles.teamCard}>
+      <img src={photo} alt={name} className={styles.teamPhoto} />
+      <h3 className={styles.teamName}>{name}</h3>
+      <p className={styles.teamPosition}>{position}</p>
+      <div className={styles.teamSocials}>
         {socialNetworks.length > 0 ? (
           socialNetworks.map((socialNetwork, index) => (
             <a
@@ -32,12 +32,12 @@ const TeamCard = ({ name, position, photo, socialNetworks }) => {
               href={socialNetwork.link}
               target="_blank"
               rel="noopener noreferrer"
-              className={`social-icon ${socialNetwork.platform}-icon`}
+              className={styles.socialIcon}
             >
               <img
                 src={icons[socialNetwork.platform]}
                 alt={`${socialNetwork.platform} icon`}
-                className="social-icon-img"
+                className={styles.socialIconImg}
               />
             </a>
           ))

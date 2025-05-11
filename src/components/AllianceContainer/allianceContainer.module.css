@@ -1,4 +1,4 @@
-.alliance-container {
+.allianceContainer {
   width: 200px;
   padding: 1rem;
   background: linear-gradient(135deg, #004690, #091c43, #4f0d0b);
@@ -9,11 +9,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.alliance-container:hover {
+.allianceContainer:hover {
   transform: scale(1.05);
 }
 
-.alliance-photo {
+.alliancePhoto {
   width: 100%;
   height: auto;
   max-height: 150px;
@@ -22,13 +22,13 @@
   object-fit: cover;
 }
 
-.alliance-container p {
+.allianceContainerParagraph {
   font-size: 1rem;
   color: #ffffff;
   margin: 0.5rem 0;
 }
 
-.alliance-container p:last-child {
+.allianceContainerParagraph:last-child {
   font-size: 0.875rem;
   color: #ffffff;
 }

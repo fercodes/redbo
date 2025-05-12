@@ -1,6 +1,8 @@
 import FUNDACION_CYDONIA from '../assets/images/alliances/international/FUNDACION_CYDONIA.jpg';
 import Space_School from '../assets/images/alliances/international/Space_School.jpg';
 import CLIE from '../assets/images/alliances/international/CLIE.jpg';
+import beyondsight from '../assets/images/alliances/international/beyondsight.jpeg';
+import aeroastral_consulting from '../assets/images/alliances/international/aeroastral_consulting.jpg';
 
 import Science_CBA from '../assets/images/alliances/national/Science_CBA.jpg';
 import Hughes_Space_School from '../assets/images/alliances/national/Hughes_Space_School.jpg';
@@ -13,6 +15,9 @@ import AIGOKEROS from '../assets/images/alliances/national/AIGOKEROS.jpg';
 import ABASC from '../assets/images/alliances/national/ABASC.jpg';
 import Alpha_y_Omega from '../assets/images/alliances/national/Alpha_y_Omega.jpg';
 import LAC from '../assets/images/alliances/national/LAC.jpg';
+import ciencialink from '../assets/images/alliances/national/ciencialink.jpg';
+import aba from '../assets/images/alliances/national/aba.jpg';
+import scea from '../assets/images/alliances/national/scea.jpg';
 
 const alliancesData = {
   international: [
@@ -36,6 +41,20 @@ const alliancesData = {
       country: '🇩🇴🇧🇴🇲🇽🇬🇹🇵🇪🇸🇻🇵🇾🇺🇾🇨🇱🇧🇷🇨🇷🇦🇷🇨🇴🇪🇨',
       type: 'international',
       link: 'https://www.instagram.com/clie.latam/',
+    },
+    {
+      photo: beyondsight,
+      name: 'BeyondSight',
+      country: 'Guatemala 🇬🇹',
+      type: 'international',
+      link: 'https://www.instagram.com/beyondsightt/',
+    },
+    {
+      photo: aeroastral_consulting,
+      name: 'Aeroastral Consulting',
+      country: 'Argentina 🇦🇷',
+      type: 'international',
+      link: 'https://www.instagram.com/aeroastralconsulting/',
     },
   ],
   national: [
@@ -103,6 +122,22 @@ const alliancesData = {
       name: 'Liga de Astronomía Cochabamba (LAC)',
       type: 'national',
       link: 'https://www.facebook.com/profile.php?id=61550635232185',
+    },
+    {
+      photo: ciencialink,
+      name: 'CienciaLink Bolivia',
+      type: 'national',
+      link: 'https://www.instagram.com/ciencialinkbolivia/',
+    },
+    {
+      photo: aba,
+      name: 'Asociación Boliviana de Astronomía',
+      type: 'national',
+    },
+    {
+      photo: scea,
+      name: 'Sociedad Científica de Estudiantes de Aeronáutica',
+      type: 'national',
     },
   ],
 };

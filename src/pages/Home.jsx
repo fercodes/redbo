@@ -4,6 +4,7 @@ import AboutUs from '../sections/AboutUs/AboutUs';
 import Team from '../sections/Team/Team';
 import Alliances from '../sections/Alliances/Alliances';
 import Contact from '../sections/Contact/Contact';
+import PhotosSection from '../sections/PhotosSection/PhotosSection';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutUs />
       <Team />
       <Alliances />
+      <PhotosSection />
       <Contact />
     </div>
   );

@@ -1,7 +1,12 @@
+import { useLocation, useNavigate } from 'react-router-dom';
+
 import { useState, useEffect } from 'react';
 import styles from './navbar.module.css';
 
 export default function Navbar() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
@@ -42,6 +47,18 @@ export default function Navbar() {
     }
   };
 
+  const handleHomePageClick = (e) => {
+    e.preventDefault(); // prevent default <a> behavior
+
+    if (location.pathname === '/') {
+      // Already on home page → scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      // Navigate to home
+      navigate('/');
+    }
+  };
+
   return (
     <nav
       className={`${styles.navbar} ${
@@ -59,7 +76,7 @@ export default function Navbar() {
         }`}
       >
         <li className={styles.menuItem}>
-          <a href="#hero" onClick={handleMenuItemClick}>
+          <a href="/" onClick={handleHomePageClick}>
             Inicio
           </a>
         </li>

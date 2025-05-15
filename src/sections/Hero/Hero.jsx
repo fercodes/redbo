@@ -1,6 +1,7 @@
 import styles from './hero.module.css';
 import ButtonJoinUs from '../../components/ButtonJoinUs/ButtonJoinUs';
 import logo from '../../assets/images/logo_red_rojo.png';
+import ButtonInternalLink from '../../components/ButtonInternalLink/ButtonInternalLink';
 
 const Hero = () => {
   return (
@@ -11,7 +12,13 @@ const Hero = () => {
         <h1 className={styles.heroTitle}>
           Red Boliviana de Ciencias Planetarias y Exploración Espacial
         </h1>
-        <ButtonJoinUs />
+        <div className={styles.buttonsContainer}>
+          <ButtonJoinUs />
+          <ButtonInternalLink
+            link="/workshop"
+            text="Únete a nuestro workshop"
+          />
+        </div>
       </div>
     </section>
   );

@@ -4,7 +4,6 @@ import ruben from '../assets/images/ruben.jpg';
 import adan from '../assets/images/adan.jpg';
 import gabriel from '../assets/images/gabriel.jpg';
 import cinthya from '../assets/images/cinthya.jpg';
-import sama from '../assets/images/sama.jpg';
 import franco from '../assets/images/franco.jpg';
 import fernando from '../assets/images/fernando.jpg';
 
@@ -89,21 +88,6 @@ const teamData = [
     position: 'ABOGADA, ENCARGADA LEGAL (DERECHO AERONÁUTICO Y ESPACIAL)',
     photo: cinthya,
     socialNetworks: [],
-  },
-  {
-    name: 'Sama Micaela Yañez Aguado',
-    position: 'ENCARGADA DISEÑO Y MARKETING',
-    photo: sama,
-    socialNetworks: [
-      {
-        platform: 'instagram',
-        link: 'https://www.instagram.com/cosmos_ismagic/',
-      },
-      {
-        platform: 'behance',
-        link: 'https://www.behance.net/samayaez',
-      },
-    ],
   },
   {
     name: 'Franco Miguel Martinez Bolivar',

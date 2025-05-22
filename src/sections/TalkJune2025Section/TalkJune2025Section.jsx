@@ -15,17 +15,17 @@ const TalkJune2025Section = () => {
     <section id="hero" className={styles.heroSection}>
       <div className={styles.heroBackground}></div>
       <div className={styles.heroContent}>
+        <h1 className={styles.heroTitle}>
+          ¡Charla con el Dr. Sanjoy Som, científico de la NASA!
+        </h1>
         <PhotoSlider
           className={styles.photoSlider}
           images={images}
           autoSlideInterval={5000}
-          height="500px"
+          height="450px"
           showDots={false}
           showArrows={true}
         />
-        <h1 className={styles.heroTitle}>
-          ¡Charla con el Dr. Sanjoy Som, científico de la NASA!
-        </h1>
         <div className={styles.textBox}>
           <p className={styles.paragraph}>
             🧪 ¡

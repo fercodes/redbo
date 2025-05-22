@@ -25,6 +25,7 @@ const WorkshopSection = () => {
     <section id="hero" className={styles.heroSection}>
       <div className={styles.heroBackground}></div>
       <div className={styles.heroContent}>
+        <h1 className={styles.heroTitle}>¡Únete a nuestro workshop!</h1>
         <PhotoSlider
           className={styles.photoSlider}
           images={images}
@@ -33,7 +34,6 @@ const WorkshopSection = () => {
           showDots={false}
           showArrows={true}
         />
-        <h1 className={styles.heroTitle}>¡Únete a nuestro workshop!</h1>
         <div className={styles.textBox}>
           <p className={styles.paragraph}>
             Únete al Capacity Building Workshop sobre Hidrogeoquímica de Lagos

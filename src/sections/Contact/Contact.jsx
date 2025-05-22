@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import styles from './contact.module.css';
 import ButtonJoinUs from '../../components/ButtonJoinUs/ButtonJoinUs';
 import facebookIcon from '../../assets/icons/facebook.svg';
@@ -49,6 +51,21 @@ const Contact = () => {
         redbolivianacsespaciales@gmail.com
       </a>
       <ButtonJoinUs />
+
+      <div className={styles.sitemapSection}>
+        <h3 className={styles.sectionTitle}>Mapa del sitio</h3>
+        <ul className={styles.sitemapList}>
+          <li>
+            <Link to="/">Página principal</Link>
+          </li>
+          <li>
+            <Link to="/workshop">Workshop</Link>
+          </li>
+          <li>
+            <Link to="/charla-junio-2025">Charla Junio 2025</Link>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };

@@ -15,8 +15,8 @@ const Hero = () => {
         <div className={styles.buttonsContainer}>
           <ButtonJoinUs />
           <ButtonInternalLink
-            link="/workshop"
-            text="Únete a nuestro workshop"
+            link="/charla-junio-2025"
+            text="Únete a nuestra charla de junio"
           />
         </div>
       </div>

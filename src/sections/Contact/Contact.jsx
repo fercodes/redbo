@@ -62,7 +62,7 @@ const Contact = () => {
             <Link to="/workshop">Workshop</Link>
           </li>
           <li>
-            <Link to="/charla-junio-2025">Charla Junio 2025</Link>
+            <Link to="/charla-junio-2025">Charla junio 2025</Link>
           </li>
         </ul>
       </div>

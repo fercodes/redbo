@@ -46,6 +46,9 @@
   gap: 1.5rem;
   position: relative;
   z-index: 1;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 40px;
 }
 
 .contactIcon {

@@ -64,6 +64,9 @@ const Contact = () => {
           <li>
             <Link to="/charla-junio-2025">Charla junio 2025</Link>
           </li>
+          <li>
+            <Link to="/album">Álbum de fotos 2025</Link>
+          </li>
         </ul>
       </div>
     </section>

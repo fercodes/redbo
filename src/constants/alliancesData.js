@@ -18,6 +18,10 @@ import LAC from '../assets/images/alliances/national/LAC.jpg';
 import ciencialink from '../assets/images/alliances/national/ciencialink.jpg';
 import aba from '../assets/images/alliances/national/aba.jpg';
 import scea from '../assets/images/alliances/national/scea.jpg';
+import gravity_space from '../assets/images/alliances/national/gravity_space.jpg';
+import bmsis from '../assets/images/alliances/international/bmsis.jpg';
+import qiubo from '../assets/images/alliances/international/qiubo.jpg';
+import redecuatoriana from '../assets/images/alliances/international/redecuatoriana.jpg';
 
 const alliancesData = {
   international: [
@@ -55,6 +59,27 @@ const alliancesData = {
       country: 'Argentina 🇦🇷',
       type: 'international',
       link: 'https://www.instagram.com/aeroastralconsulting/',
+    },
+    {
+      photo: bmsis,
+      name: 'Blue Marble Space Institute of Science',
+      country: 'United States 🇺🇸',
+      type: 'international',
+      link: 'https://bmsis.org/',
+    },
+    {
+      photo: qiubo,
+      name: 'Qiubo',
+      country: 'El Salvador 🇸🇻',
+      type: 'international',
+      link: 'https://sv.qiubo.org/',
+    },
+    {
+      photo: redecuatoriana,
+      name: 'Red Ecuatoriana de Ciencias Planetarias y Exploración Espacial',
+      country: 'Ecuador 🇪🇨',
+      type: 'international',
+      link: 'https://www.instagram.com/redecuatoriana_cpyee/',
     },
   ],
   national: [
@@ -138,6 +163,12 @@ const alliancesData = {
       photo: scea,
       name: 'Sociedad Científica de Estudiantes de Aeronáutica',
       type: 'national',
+    },
+    {
+      photo: gravity_space,
+      name: 'Gravity Space',
+      type: 'national',
+      link: 'https://www.instagram.com/gravityspace214/',
     },
   ],
 };

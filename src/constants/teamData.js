@@ -1,35 +1,17 @@
-import nicole from '../assets/images/nicole.jpg';
 import alejandra from '../assets/images/alejandra.jpg';
-import ruben from '../assets/images/ruben.jpg';
-import adan from '../assets/images/adan.jpg';
-import gabriel from '../assets/images/gabriel.jpg';
+import carmen from '../assets/images/carmen.jpg';
+import michelle from '../assets/images/michelle.jpg';
+import gabriela from '../assets/images/gabriela.jpg';
+import rodrigo from '../assets/images/rodrigo.jpg';
+import fabian from '../assets/images/fabian.png';
 import cinthya from '../assets/images/cinthya.jpg';
 import franco from '../assets/images/franco.jpg';
 import fernando from '../assets/images/fernando.jpg';
 
 const teamData = [
   {
-    name: 'Nicole Jimeno Ruiz',
-    position: 'COORDINADORA',
-    photo: nicole,
-    socialNetworks: [
-      {
-        platform: 'linkedin',
-        link: 'https://www.linkedin.com/in/nicole-jimeno-ruiz/',
-      },
-      {
-        platform: 'instagram',
-        link: 'https://www.instagram.com/bolivian_scientist/',
-      },
-      {
-        platform: 'beacons',
-        link: 'https://beacons.ai/nicolejimeno',
-      },
-    ],
-  },
-  {
     name: 'Arian Alejandra Kuguimiya Ramos',
-    position: 'CO-COORDINADORA',
+    position: 'PRESIDENTE',
     photo: alejandra,
     socialNetworks: [
       {
@@ -38,48 +20,78 @@ const teamData = [
       },
       {
         platform: 'instagram',
-        link: 'https://www.instagram.com/arian_akr/',
+        link: 'https://www.instagram.com/astrogeologist_akr/',
       },
     ],
   },
   {
-    name: 'Ruben Dario Jallaza Calla',
-    position: 'DIRECTOR CIENCIAS PLANETARIAS',
-    photo: ruben,
+    name: 'Carmen Julia Vela Doria Medina',
+    position: 'VICEPRESIDENTE',
+    photo: carmen,
     socialNetworks: [
       {
         platform: 'linkedin',
-        link: 'https://www.linkedin.com/in/ruben-jallaza-394943191/',
+        link: 'https://www.linkedin.com/in/carmen-vela-doria-medina-ba2115379/',
       },
       {
         platform: 'instagram',
-        link: 'https://www.instagram.com/rubenjallaza6/',
+        link: 'https://www.instagram.com/carmendoriamedina_/',
       },
     ],
   },
   {
-    name: 'Adan Ardaya Dominguez',
-    position: 'DIRECTOR EXPLORACIÓN ESPACIAL',
-    photo: adan,
+    name: 'Michelle Nieves Vargas Ajata',
+    position: 'COORDINADORA LA PAZ',
+    photo: michelle,
     socialNetworks: [
       {
         platform: 'linkedin',
-        link: 'https://www.linkedin.com/in/adan-ardaya-d-13b78b203/',
+        link: 'https://www.linkedin.com/in/michelle-vargas-ajata-5ab8b12a3/',
       },
       {
         platform: 'instagram',
-        link: 'https://www.instagram.com/adan_ardayad/',
+        link: 'https://www.instagram.com/michellenieves.vargasajata/',
       },
     ],
   },
   {
-    name: 'Gabriel Jiménez Amorós',
-    position: 'DIRECTOR EXPLORACIÓN ESPACIAL',
-    photo: gabriel,
+    name: 'Gabriela Ribera Cruz',
+    position: 'COORDINADORA SANTA CRUZ',
+    photo: gabriela,
     socialNetworks: [
       {
         platform: 'linkedin',
-        link: 'https://www.linkedin.com/in/gabriel-jim%C3%A9nez-amor%C3%B3s-4b21b61b0/',
+        link: 'https://www.linkedin.com/in/gabriela-ribera-cruz-07b42b301/',
+      },
+      {
+        platform: 'instagram',
+        link: 'https://www.instagram.com/univers_ela/',
+      },
+    ],
+  },
+  {
+    name: 'Rodrigo Alejandro Muñoz Lara',
+    position: 'COORDINADOR COCHABAMBA',
+    photo: rodrigo,
+    socialNetworks: [
+      {
+        platform: 'linkedin',
+        link: 'https://www.linkedin.com/in/rodrigo-alejandro-muñoz-lara-4465a8364/',
+      },
+    ],
+  },
+  {
+    name: 'Fabian Serrano Catari',
+    position: 'DIRECTOR EXPLORACIÓN ESPACIAL',
+    photo: fabian,
+    socialNetworks: [
+      {
+        platform: 'linkedin',
+        link: 'https://www.linkedin.com/in/fabian-serrano-catari-243346295/',
+      },
+      {
+        platform: 'instagram',
+        link: 'https://www.instagram.com/_fabianss.c_/',
       },
     ],
   },
